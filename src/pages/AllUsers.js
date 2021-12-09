@@ -70,7 +70,7 @@ const AllUsers = () => {
 
 	const handleClick = (name, person) => {
 		history.push({
-			pathname: `${name}`,
+			pathname: `${person.name.first}${person.name.last}`,
 			person,
 		});
 	};
