@@ -45,7 +45,7 @@ const SingleUser = (props) => {
 			<div className="map-container">
 				<Map location={person.location} />
 			</div>
-			<Link to="/" className="btn">
+			<Link to="/Moveo-test" className="btn">
 				Go Back
 			</Link>
 		</section>
