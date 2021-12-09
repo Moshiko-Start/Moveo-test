@@ -8,7 +8,7 @@ const App = () => {
 		<Router>
 			<Switch>
 				<Route path="/Moveo-test" exact component={AllUsers} />
-				<Route path="/Moveo-test/:name" component={SingleUser} />
+				<Route path="/:name" component={SingleUser} />
 			</Switch>
 		</Router>
 	);

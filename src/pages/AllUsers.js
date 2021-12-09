@@ -135,7 +135,10 @@ const AllUsers = () => {
 										{row.num}
 									</TableCell>
 									<TableCell align="center">
-										<img src={row.picture} alt={row.name} />
+										<img
+											src={row.picture}
+											alt={row.first}
+										/>
 									</TableCell>
 									<TableCell align="center">
 										{`${row.first}.${row.last}`}

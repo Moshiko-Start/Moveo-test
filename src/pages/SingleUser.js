@@ -8,7 +8,6 @@ const SingleUser = (props) => {
 	const history = useHistory();
 
 	const [person, setPerson] = useState(props.location.person);
-	console.log(person);
 
 	const sendEmail = () => {
 		document.location = `mailto:${person.email}`;
@@ -28,7 +27,9 @@ const SingleUser = (props) => {
 				</div>
 				<div className="details">
 					<h4>Name: </h4>
-					<p>{person.name}</p>
+					<p>
+						{person.first}.{person.last}
+					</p>
 				</div>
 				<div className="details" id="email" onClick={() => sendEmail()}>
 					<h4>Email: </h4>
