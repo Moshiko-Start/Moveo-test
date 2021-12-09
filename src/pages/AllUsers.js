@@ -70,7 +70,7 @@ const AllUsers = () => {
 
 	const handleClick = (name, person) => {
 		history.push({
-			pathname: `Moveo-test/${name}`,
+			pathname: `${name}`,
 			person,
 		});
 	};
