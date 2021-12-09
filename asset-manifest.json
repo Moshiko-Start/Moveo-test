@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Moveo-test/static/css/main.dae90e8e.chunk.css",
+    "main.js": "/Moveo-test/static/js/main.27ceaa2a.chunk.js",
+    "main.js.map": "/Moveo-test/static/js/main.27ceaa2a.chunk.js.map",
+    "runtime-main.js": "/Moveo-test/static/js/runtime-main.597d9130.js",
+    "runtime-main.js.map": "/Moveo-test/static/js/runtime-main.597d9130.js.map",
+    "static/js/2.3140fb69.chunk.js": "/Moveo-test/static/js/2.3140fb69.chunk.js",
+    "static/js/2.3140fb69.chunk.js.map": "/Moveo-test/static/js/2.3140fb69.chunk.js.map",
+    "index.html": "/Moveo-test/index.html",
+    "static/css/main.dae90e8e.chunk.css.map": "/Moveo-test/static/css/main.dae90e8e.chunk.css.map",
+    "static/js/2.3140fb69.chunk.js.LICENSE.txt": "/Moveo-test/static/js/2.3140fb69.chunk.js.LICENSE.txt",
+    "static/media/spinner.b44e28fe.gif": "/Moveo-test/static/media/spinner.b44e28fe.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.597d9130.js",
+    "static/js/2.3140fb69.chunk.js",
+    "static/css/main.dae90e8e.chunk.css",
+    "static/js/main.27ceaa2a.chunk.js"
+  ]
+}
