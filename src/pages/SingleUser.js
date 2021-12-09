@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router';
 import Map from '../components/Map';
@@ -8,6 +8,7 @@ const SingleUser = (props) => {
 	const history = useHistory();
 
 	const [person, setPerson] = useState(props.location.person);
+	console.log(person);
 
 	const sendEmail = () => {
 		document.location = `mailto:${person.email}`;
